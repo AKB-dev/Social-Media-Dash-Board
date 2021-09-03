@@ -228,3 +228,14 @@ header section:last-child{
     color: hsl(356, 69%, 56%);
     padding-top: 50px;
 }
+
+.footnote {
+    font-size: 14px;
+    text-align: center; 
+    margin-top: 40px;
+    color: hsl(228, 34%, 66%);
+}
+
+.footnote a {
+    color: hsl(228, 45%, 44%);
+}
