@@ -92,3 +92,79 @@ header section:first-child {
     background-color: var(--bg);
     transition: 0.3s;
 }
+
+/*Social Media Cards*/
+header section:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.header-card {
+    padding: 25px 30px;
+    background-color: var(--bg-card);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.padding-left {
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+.header-card-1 {
+    margin: 10px 0 10px 0;
+    color: var(--subtext);
+    font-weight: 700;
+}
+
+.header-card-1-name {
+    font-size: 13px;
+}
+
+.header-card-2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--header-text);  
+}
+
+.header-card-3 {
+    color: var(--subtext);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;    
+}
+
+.header-card-4 {
+    margin-top: 20px;
+}
+
+.facebook {
+    border-top: 3px solid hsl(208, 92%, 53%);
+}
+
+.twitter {
+    border-top: 3px solid hsl(203, 89%, 53%);
+}
+
+.instagram {
+    position: relative;
+    overflow: hidden;
+}
+
+.instagram::after {
+    content: '';
+    background-image: linear-gradient(to right, #fdc468, #df4996);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+}
+
+.youtube {
+    border-top: 3px solid hsl(348, 97%, 39%);
+}
